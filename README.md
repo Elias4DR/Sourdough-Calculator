@@ -1,46 +1,45 @@
 # Sourdough Bread Calculator 🥖
 
-A web-based calculator built with **Python** and **Streamlit** to help bakers easily determine ingredient amounts for sourdough bread. Adjust flour, water, starter, and salt percentages with interactive inputs, and get precise ingredient quantities for any loaf size.
+**Quickly calculate ingredient amounts for your sourdough bread!**  
+Enter your flour weight, hydration, starter %, and salt %, and the app will give you precise grams for each ingredient — no more guessing or searching random recipes online.
+
+---
+
+## Try It Online
+[Launch the Sourdough Bread Calculator](https://sourdough-calculator-7s3ey3rukofhq9vjaugra7.streamlit.app/)
 
 ---
 
 ## Features
 
-- Input flour weight and adjust hydration, starter, and salt percentages.  
-- Calculates exact grams of water, starter, salt, and total dough.  
-- Clean, interactive web interface with number inputs for smooth precision.  
-- Hosted on Streamlit Cloud: no installation required.
-
----
-
-## Try It Online
-
-Click here to try the app live: [Sourdough Bread Calculator](https://sourdough-calculator-7s3ey3rukofhq9vjaugra7.streamlit.app/)
+- Adjust flour, hydration, starter, and salt percentages with interactive inputs.  
+- Instant calculation of water, starter, salt, and total dough.  
+- Clean, intuitive interface built with Streamlit.  
+- No installation required — runs entirely in the browser.
 
 ---
 
 ## Tech Stack
 
-- Python  
-- Streamlit  
-- Pandas  
-- Git & GitHub (version control & deployment)  
+- **Python** – calculations and logic  
+- **Streamlit** – interactive web app interface  
+- **Pandas** – data formatting and table display  
+- **Git & GitHub** – version control and deployment  
 
 ---
 
-## How it Works
+## How It Works
 
 1. Enter the amount of flour for your loaf.  
 2. Adjust hydration, starter %, and salt % using the input fields.  
-3. The calculator instantly shows the required grams for each ingredient.  
+3. See the precise ingredient amounts immediately in a clean table.  
 
 ---
 
 ## Notes
 
-- This project demonstrates practical deployment of a Python web app.  
-- Ideal for bakers looking for precise dough measurements.  
-- No personal data is collected; the app is fully client-side.
+- Demonstrates deployment of a Python web app for interactive use.  
+- Safe and client-side — no personal data is collected.  
 
 ---
 
