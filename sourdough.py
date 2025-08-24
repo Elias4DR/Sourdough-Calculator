@@ -1,6 +1,18 @@
 import streamlit as st
 import pandas as pd
 
+#google analytics 
+st.markdown("""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGEDW2QQZ1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-TGEDW2QQZ1');
+</script>
+""", unsafe_allow_html=True)
+
 # Set page title and layout
 st.set_page_config(page_title="Sourdough Bread Calculator", layout="centered")
 st.title("🥖 Sourdough Bread Calculator")
