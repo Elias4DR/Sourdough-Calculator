@@ -12,5 +12,4 @@ def sourdough_recipe(flour, hydration=70, starter_pct=20, salt_pct=2):
         "Total Dough (g)": round(total, 1)
     }
 
-    print(sourdough_recipe(500))  
-
+  
