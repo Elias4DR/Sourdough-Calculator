@@ -4,12 +4,12 @@ import pandas as pd
 #google analytics 
 st.markdown("""
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGEDW2QQZ1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2D96DF6F7B"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-TGEDW2QQZ1');
+gtag('config', 'G-2D96DF6F7B');
 </script>
 """, unsafe_allow_html=True)
 
