@@ -36,5 +36,6 @@ recipe = sourdough_recipe(flour, hydration, starter_pct, salt_pct)
 
 # Display nicely as a table
 st.markdown("### 🍽 Ingredients")
-st.table(pd.DataFrame([recipe]))
+df = pd.DataFrame([recipe])
+st.table(df.style.format("{:.1f}"))
 
