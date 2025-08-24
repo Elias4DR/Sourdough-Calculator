@@ -10,9 +10,9 @@ def sourdough_recipe(flour, hydration=70, starter_pct=20, salt_pct=2):
 st.title("🥖 Sourdough Calculator")
 
 flour = st.number_input("Flour (g)", min_value=100, max_value=2000, value=500, step=10)
-hydration = st.slider("Hydration %", 50, 85, 70, step=0.5)
-starter_pct = st.slider("Starter %", 10, 30, 20, step=0.5)
-salt_pct = st.slider("Salt %", 1, 3, 2, step=0.1)
+hydration = st.slider("Hydration %", 50.0, 85.0, 70.0, step=0.5)
+starter_pct = st.slider("Starter %", 10.0, 30.0, 20.0, step=0.5)
+salt_pct = st.slider("Salt %", 1.0, 3.0, 2.0, step=0.1)
 
 water, starter, salt, total = sourdough_recipe(flour, hydration, starter_pct, salt_pct)
 
