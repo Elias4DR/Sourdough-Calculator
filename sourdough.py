@@ -24,7 +24,7 @@ st.markdown("Adjust your ingredients below to calculate your sourdough dough:")
 col1, col2 = st.columns(2)
 
 with col1:
-    flour = st.number_input("🌾 Flour (g)", min_value=100.0, max_value=2000.0, value=500.0, step=10.0)
+    flour = st.number_input("🌾 Flour (g)", min_value=100, max_value=2000, value=500, step=10.0)
     hydration = st.number_input("💧 Hydration %", min_value=50.0, max_value=85.0, value=70.0, step=0.5)
 
 with col2:
